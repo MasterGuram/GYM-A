@@ -310,8 +310,15 @@ img {
   transform: translateX(.25rem);
 }
 
-/*=============== LOGOS ===============*/
-
+/* LOGOS */
+.logos__container{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+.logos__img{
+  width: 120px;
+}
 
 /*=============== PROGRAM ===============*/
 
