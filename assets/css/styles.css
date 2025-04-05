@@ -625,6 +625,10 @@ img {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
+.footer__message{
+  position: absolute;
+  transform: translateY(1rem);
+}
 
 /*=============== SCROLL BAR ===============*/
 
